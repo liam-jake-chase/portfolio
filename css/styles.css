@@ -10806,3 +10806,7 @@ header.masthead h1 {
   top: 23rem;
   left: 5.5rem;
 }
+
+.btn-primary {
+  background-color: #007bff;
+}
