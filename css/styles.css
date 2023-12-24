@@ -10917,3 +10917,16 @@ header.masthead h1 {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+@media (min-width: 320px) {
+  .section-two-flex {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-two-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
