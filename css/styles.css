@@ -10896,6 +10896,7 @@ header.masthead h1 {
   .card-two {
     height: 26rem;
     align-items: center;
+    margin-right: 2rem;
   }
 }
 
