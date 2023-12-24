@@ -10900,5 +10900,19 @@ header.masthead h1 {
 }
 
 .projects-section-two {
-  margin-bottom: 2rem;;
+  margin-bottom: 2rem;
+  display: flex;
+
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-two-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
