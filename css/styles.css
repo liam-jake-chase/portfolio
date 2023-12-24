@@ -10796,6 +10796,11 @@ header.masthead h1 {
   border: solid black 0.05rem;
 }
 
+.card-two {
+  border-radius: 0.75rem;
+  border: solid black 0.05rem;
+}
+
 .page {
   position: absolute;
   top: 23rem;
@@ -10805,6 +10810,22 @@ header.masthead h1 {
   position: absolute;
   top: 23rem;
   left: 5.5rem;
+}
+.code-two {
+  position: absolute;
+  top: 23rem;
+  left: 5.5rem;
+}
+.page-two {
+  position: absolute;
+  top: 23rem;
+  left: 0;
+  margin-left: .5rem;
+}
+.docker {
+  position: absolute;
+  left: 10rem;
+  top: 23rem;
 }
 
 .btn-primary {
@@ -10854,4 +10875,30 @@ header.masthead h1 {
     height: 26rem;
     align-items: center;
   }
+}
+
+@media (min-width: 320px) {
+  .card-two {
+    height: 27rem;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .card-two {
+    height: 26rem;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-two {
+    height: 26rem;
+    align-items: center;
+  }
+}
+
+.projects-section-two {
+  margin-bottom: 2rem;;
 }
