@@ -6822,9 +6822,9 @@ button.bg-dark:focus {
   color: #060061;
   font-size: 0.85rem;
 }
-.d-block:hover {
+/* .d-block:hover {
   background-color: #292470;
-}
+} */
 
 .d-table {
   display: table !important;
